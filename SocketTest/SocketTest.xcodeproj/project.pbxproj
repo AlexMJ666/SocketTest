@@ -15,6 +15,7 @@
 		533B42D11EC1AEA2008F9F1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 533B42CF1EC1AEA2008F9F1B /* LaunchScreen.storyboard */; };
 		533B42DC1EC1AEA2008F9F1B /* SocketTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 533B42DB1EC1AEA2008F9F1B /* SocketTestTests.m */; };
 		533B42E71EC1AEA2008F9F1B /* SocketTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 533B42E61EC1AEA2008F9F1B /* SocketTestUITests.m */; };
+		533B42F61EC1AEEB008F9F1B /* MJSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 533B42F51EC1AEEB008F9F1B /* MJSocket.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		533B42E21EC1AEA2008F9F1B /* SocketTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SocketTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		533B42E61EC1AEA2008F9F1B /* SocketTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SocketTestUITests.m; sourceTree = "<group>"; };
 		533B42E81EC1AEA2008F9F1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		533B42F41EC1AEEB008F9F1B /* MJSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJSocket.h; sourceTree = "<group>"; };
+		533B42F51EC1AEEB008F9F1B /* MJSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJSocket.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				533B42CF1EC1AEA2008F9F1B /* LaunchScreen.storyboard */,
 				533B42D21EC1AEA2008F9F1B /* Info.plist */,
 				533B42C11EC1AEA2008F9F1B /* Supporting Files */,
+				533B42F41EC1AEEB008F9F1B /* MJSocket.h */,
+				533B42F51EC1AEEB008F9F1B /* MJSocket.m */,
 			);
 			path = SocketTest;
 			sourceTree = "<group>";
@@ -277,6 +282,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				533B42C91EC1AEA2008F9F1B /* ViewController.m in Sources */,
+				533B42F61EC1AEEB008F9F1B /* MJSocket.m in Sources */,
 				533B42C61EC1AEA2008F9F1B /* AppDelegate.m in Sources */,
 				533B42C31EC1AEA2008F9F1B /* main.m in Sources */,
 			);

@@ -7,15 +7,16 @@
 //
 
 #import "ViewController.h"
-
+#import "MJSocket.h"
 @interface ViewController ()
-
+@property(nonatomic,strong) IBOutlet UITextField* textfield;
 @end
 
 @implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [MJSocket shareInstance];
     // Do any additional setup after loading the view, typically from a nib.
 }
 
@@ -25,5 +26,8 @@
     // Dispose of any resources that can be recreated.
 }
 
-
+-(IBAction)send:(id)sender
+{
+    [[MJSocket shareInstance] sendMessage:_textfield.text];
+}
 @end
