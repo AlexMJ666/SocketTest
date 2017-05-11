@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "MJSocket.h"
+#import "MJSocketAsyn.h"
 @interface ViewController ()
 @property(nonatomic,strong) IBOutlet UITextField* textfield;
 @end
@@ -16,7 +17,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [MJSocket shareInstance];
+   // [MJSocket shareInstance];
+    [MJSocketAsyn share];
     // Do any additional setup after loading the view, typically from a nib.
 }
 
@@ -28,6 +30,7 @@
 
 -(IBAction)send:(id)sender
 {
-    [[MJSocket shareInstance] sendMessage:_textfield.text];
+   // [[MJSocket shareInstance] sendMessage:_textfield.text];
+    [[MJSocketAsyn share]sendMsg:_textfield.text];
 }
 @end
