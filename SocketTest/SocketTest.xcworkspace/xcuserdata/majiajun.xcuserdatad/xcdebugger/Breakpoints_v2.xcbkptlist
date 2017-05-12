@@ -10,12 +10,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SocketTest/MJSocketAsyn/MJSocketAsyn.m"
-            timestampString = "516166037.591964"
+            timestampString = "516185470.01022"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "53"
-            endingLineNumber = "53"
-            landmarkName = "-sendMsg:"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "+share"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
