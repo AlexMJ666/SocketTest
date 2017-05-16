@@ -19,6 +19,7 @@
     [super viewDidLoad];
    // [MJSocket shareInstance];
     [MJSocketAsyn share];
+    [[MJSocketAsyn share]connect];
     // Do any additional setup after loading the view, typically from a nib.
 }
 
